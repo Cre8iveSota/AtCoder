@@ -33,4 +33,9 @@ AtCoder の実装・テストプロジェクトのテンプレート
 
 ## 参考
 
-https://oita.oika.me/2020/05/10/at-coder-csharp/
+- 本実行環境準備方法
+  - https://oita.oika.me/2020/05/10/at-coder-csharp/
+    - 注意点 上記 リンク 誤植あり
+      - x.config→x.csproj
+    - For HiguchiSodapop edit 使用汎用テンプレートを追加
+      - https://qiita.com/sekikatsu/items/93c41c6c937ed1dfcf23 参考
