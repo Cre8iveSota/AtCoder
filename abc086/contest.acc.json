@@ -9,12 +9,7 @@
       "id": "abc086_a",
       "label": "A",
       "title": "Product",
-      "url": "https://atcoder.jp/contests/abc086/tasks/abc086_a",
-      "directory": {
-        "path": "a",
-        "testdir": "test",
-        "submit": "Program.cs"
-      }
+      "url": "https://atcoder.jp/contests/abc086/tasks/abc086_a"
     },
     {
       "id": "abc086_b",
@@ -26,7 +21,12 @@
       "id": "arc089_a",
       "label": "C",
       "title": "Traveling",
-      "url": "https://atcoder.jp/contests/abc086/tasks/arc089_a"
+      "url": "https://atcoder.jp/contests/abc086/tasks/arc089_a",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "Program.cs"
+      }
     },
     {
       "id": "arc089_b",
