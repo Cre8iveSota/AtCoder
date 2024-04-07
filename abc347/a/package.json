@@ -1,0 +1,13 @@
+{
+  "name": "x",
+  "private":true,
+  "scripts": {
+    "begin": "dotnet new console; cat /Users/20190721sotah1/Library/Preferences/atcoder-cli-nodejs/cs/Program.cs > Program.cs" ,
+    "test": "oj t -c \"dotnet run\"",
+    "submit": "acc submit -s -- -l 5003",
+    "accin":"acc login",
+    "ojin":"oj login https://beta.atcoder.jp/",
+    "accout":"acc logout",
+    "accstatus":"acc session"
+  }
+}
