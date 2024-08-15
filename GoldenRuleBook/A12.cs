@@ -8,9 +8,28 @@ namespace x
     {
         static void Main(string[] args)
         {
-
-
-
+            long[] NK = Console.ReadLine().Split(' ').Select(i => long.Parse(i)).ToArray();
+            long N = NK[0];
+            long K = NK[1];
+            int[] A = Console.ReadLine().Split(' ').Select(i => int.Parse(i)).ToArray();
+            A = (new int[] { 0 }).Concat(A).ToArray();
+            int L = 1;
+            int R = 1000000000;
+            int M = 0;
+            long sum = 0;
+            while (L < R)
+            {
+                sum = 0;
+                M = (L + R) / 2;
+                for (long i = 1; i <= N; i++)
+                {
+                    sum += M / A[i];
+                }
+                bool ansIsSmaller = sum >= K;
+                if (ansIsSmaller) R = M;
+                else L = M + 1;
+            }
+            Console.WriteLine(L);
         }
     }
 

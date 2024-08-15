@@ -8,11 +8,20 @@ namespace x
     {
         static void Main(string[] args)
         {
-
-
-
+            int[] NX = Console.ReadLine().Split(' ').Select(i => int.Parse(i)).ToArray();
+            int N = NX[0];
+            int X = NX[1];
+            int[] A = Console.ReadLine().Split(' ').Select(i => int.Parse(i)).ToArray();
+            A = (new int[] { 0 }).Concat(A).ToArray();
+            int L = 0;
+            int R = N;
+            int M = (L + R) / 2;
+            int ans = -1;
+            ans = Array.BinarySearch(A, X);
+            Console.WriteLine(ans);
         }
     }
+
 
     //よく使うコードなどあれば    
     class Utils
